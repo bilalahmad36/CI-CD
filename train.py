@@ -11,7 +11,7 @@ from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
 
 # Load and shuffle dataset
-drug_df = pd.read_csv("Data/drug200.csv")
+drug_df = pd.read_csv("data/drug200.csv")
 drug_df = drug_df.sample(frac=1)
 
 # Train-test split
